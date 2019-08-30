@@ -29,17 +29,18 @@ a:hover {
   border-radius: 5px;
   width: 90%;
   margin: auto;
-  padding: 2rem;
+  padding: 3rem;
+  text-align: center;
 }
 
-.profile-section {
+.profile-sidebar {
   display: flex;
   flex-direction: column;
 }
 
 .profile-image {
   border-radius: 50%;
-  margin: auto;
+  margin: 0 auto;
   border: 3px solid #ccc;
   margin-bottom: 1rem;
 }
@@ -57,15 +58,14 @@ a:hover {
   font-size: 1.2rem;
 }
 
-.profile-info-name {
+.profile-main-name {
   margin-top: 1.2rem;
-  text-align: center;
   font-size: 1.5rem;
   font-weight: 100;
   letter-spacing: 1.5px;
 }
 
-.profile-info-name::after {
+.profile-main-name::after {
   content: "";
   height: 2px;
   width: 30%;
@@ -74,17 +74,40 @@ a:hover {
   margin: 2rem auto;
 }
 
-.profile-info-title {
-  text-align: center;
+.profile-main-title {
   font-size: 1.15rem;
   font-weight: 700;
   color: #888;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-.profile-info-contents {
+.profile-main-contents {
   font-size: 1rem;
   color: #333;
   line-height: 1.45rem;
-  text-align: center;
+}
+
+@media only screen and (min-width: 450px) {
+  .card {
+    flex-direction: row;
+  }
+
+  .profile-sidebar {
+    flex: 1;
+    padding: 0.55rem 0;
+  }
+
+  .profile-image {
+    margin: 1rem auto;
+  }
+
+  .profile-main {
+    margin-left: 2rem;
+    flex: 3;
+    text-align: left;
+  }
+
+  .profile-main-name::after {
+    margin-left: 0;
+  }
 }
