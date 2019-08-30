@@ -27,7 +27,7 @@ a:hover {
   flex-direction: column;
   border: 0.5px solid #dddddd;
   border-radius: 5px;
-  width: 60%;
+  width: 90%;
   margin: auto;
   padding: 2rem;
 }
@@ -85,6 +85,6 @@ a:hover {
 .profile-info-contents {
   font-size: 1rem;
   color: #333;
-  line-height: 1.35rem;
+  line-height: 1.45rem;
   text-align: center;
 }
