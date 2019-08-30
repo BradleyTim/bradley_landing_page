@@ -41,6 +41,7 @@ a:hover {
 .profile-image {
   border-radius: 50%;
   margin: 0 auto;
+  width: 40%;
   border: 3px solid #ccc;
   margin-bottom: 1rem;
 }
@@ -87,7 +88,7 @@ a:hover {
   line-height: 1.45rem;
 }
 
-@media only screen and (max-width: 450px) {
+@media screen and (min-width: 450px) {
   .card {
     flex-direction: row;
   }
