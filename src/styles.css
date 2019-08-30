@@ -29,7 +29,7 @@ a:hover {
   border-radius: 5px;
   width: 90%;
   margin: auto;
-  padding: 3rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
@@ -48,7 +48,7 @@ a:hover {
 
 .social-list {
   list-style: none;
-  width: 30%;
+  width: 40%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -56,7 +56,7 @@ a:hover {
 
 .social-list-item {
   padding: 0 0.65rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .profile-main-name {
@@ -72,23 +72,23 @@ a:hover {
   width: 30%;
   display: block;
   background: #eee;
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
 
 .profile-main-title {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #888;
   margin-bottom: 1rem;
 }
 
 .profile-main-contents {
-  font-size: 1rem;
+  font-size: 1.15rem;
   color: #333;
   line-height: 1.45rem;
 }
 
-@media only screen and ("min-width": 450px) {
+@media only screen and (min-width: 450px) {
   .card {
     flex-direction: row;
   }
