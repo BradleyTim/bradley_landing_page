@@ -91,6 +91,7 @@ a:hover {
 @media only screen and (min-width: 450px) {
   .card {
     flex-direction: row;
+    padding: 3rem 0.5rem;
   }
 
   .profile-sidebar {
